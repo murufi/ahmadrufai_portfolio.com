@@ -46,7 +46,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/my.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/MyPic.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">AhmadRufai</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -110,10 +110,11 @@
                 <div class="swiper-slide">
                   <img id="img2" src=" " alt="">
                 </div>
-
                 <div class="swiper-slide">
-                  <img id="img3" src="" alt="">
+                  <img id="img3" src=" " alt="">
                 </div>
+
+      
 
               </div>
               <div class="swiper-pagination"></div>
@@ -266,9 +267,9 @@
            'URL': 'https://www.example.com' },
            
            {'id':'9', 
-           'img1':'siwes3.PNG', 
-           'img2':'siwes4.PNG', 
-           'img3':'siwes.PNG', 
+           'img1':'soccer2.jpg', 
+           'img2':'soccer3.jpg', 
+           'img3':'soccer4.jpg', 
            'Category':'Web Design', 
            'Client':' - ',
            'date':' 2025', 
@@ -287,7 +288,6 @@
 
     // 3. Display data based on ID
     const id = getIdFromUrl();
-    console.log(id);
     const project = details.find(items => items.id === id);
 
     if (project) {
